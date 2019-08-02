@@ -3,7 +3,7 @@
 
 #ifndef PB_PROTOBUFMESSAGES_STATUS_PB_H_INCLUDED
 #define PB_PROTOBUFMESSAGES_STATUS_PB_H_INCLUDED
-#include "../modules/nanopb/pb.h"
+#include "pb.h"
 
 /* @@protoc_insertion_point(includes) */
 #if PB_PROTO_HEADER_VERSION != 40
