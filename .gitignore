@@ -1,3 +1,5 @@
 *.c
 *.h
 *.cpp
+*.pb.cpp
+*.pb.h
