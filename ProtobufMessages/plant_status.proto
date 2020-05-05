@@ -1,8 +1,0 @@
-// protobuff stuff
-syntax = "proto2";
-
-message DeviceStatus{
-    required int32 status = 1;
-    bool water_good = 1; 
-    bool temp_good = 1; 
-}
