@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message MessageData{
+    // Size of message that we are going to send after this. 
+    uint32 message_size = 1; 
+    // Enumerated Type of message that we are going to send after this. 
+    enum MessageType {
+        
+        // General instruction message that will do a variety of functions. 
+        GENERAL_INSTRUCTIONS = 0; 
+
+        // Matrix Framebuffer data. 
+        MATRIX_DATA = 1; 
+    }
+
+    MessageType message_type = 2;
+}
