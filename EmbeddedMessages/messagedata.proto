@@ -11,6 +11,10 @@ message MessageData{
 
         // Matrix Framebuffer data. 
         MATRIX_DATA = 1; 
+        
+        // LED Strip Framebuffer data. 
+        LED_STRIP_DATA = 2;
+        
     }
 
     MessageType message_type = 2;
