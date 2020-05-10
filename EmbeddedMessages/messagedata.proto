@@ -14,7 +14,9 @@ message MessageData{
         
         // LED Strip Framebuffer data. 
         LED_STRIP_DATA = 2;
-        
+
+        // Heaat RGB Light Control Data. 
+        HEAAT_CONTROL_DATA = 3; 
     }
 
     MessageType message_type = 2;
