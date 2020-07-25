@@ -10,4 +10,6 @@ message ClockProgram{
     bool en_hourly_messages = 3;
     // Do we want to have the heart blink or not.  
     bool en_blink_heart = 4; 
+    // enables the clock displays
+    bool en_display = 5; 
 }
