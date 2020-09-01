@@ -35,6 +35,9 @@ message MessageData{
 
         // Tina's heart data. 
         HEART_DATA = 9;  
+
+        // GIF Frame update. 
+        GIF_FRAME_UPDATE = 10; 
     }
 
     MessageType message_type = 2;
